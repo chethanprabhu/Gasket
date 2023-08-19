@@ -2,6 +2,13 @@ import React, { useEffect, useState } from "react"
 import ReactDOM from "react-dom/client";
 import axios from "axios"
 
+type Product = {
+    title: string;
+    price: string;
+    category: string;
+    rating: string
+}
+
 const App = () => {
 
     const [data, setData] = useState([]);
@@ -16,7 +23,7 @@ const App = () => {
     return (
         <>
             <h1>REACT!!</h1>
-            {data.map((item) => {
+            {data.map((item: Product) => {
                 return <p>{item.title}</p>
             })}
         </>
