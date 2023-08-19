@@ -1,13 +1,7 @@
 import React, { useEffect, useState } from "react"
 import ReactDOM from "react-dom/client";
 import axios from "axios"
-
-type Product = {
-    title: string;
-    price: string;
-    category: string;
-    rating: string
-}
+import Button from '@mui/material/Button';
 
 const App = () => {
 
@@ -23,9 +17,10 @@ const App = () => {
     return (
         <>
             <h1>REACT!!</h1>
-            {data.map((item: Product) => {
+            {data.map((item) => {
                 return <p>{item.title}</p>
             })}
+            <Button variant="contained">Hello world</Button>
         </>
     )
 }
