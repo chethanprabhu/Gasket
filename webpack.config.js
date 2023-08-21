@@ -23,6 +23,10 @@ module.exports = {
                         presets: ["@babel/preset-env", "@babel/preset-react"] // mention the presets for js and react
                     }
                 }
+            },
+            {
+                test: /\.css$/, // Match CSS files
+                use: ['style-loader', 'css-loader'], // Use the loaders in reverse order
             }
         ]
     }
