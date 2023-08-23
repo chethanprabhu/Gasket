@@ -27,6 +27,10 @@ module.exports = {
             {
                 test: /\.css$/, // Match CSS files
                 use: ['style-loader', 'css-loader'], // Use the loaders in reverse order
+            }, 
+            {
+                test: /\.(svg|eot|ttf|woff|woff2|png)$/,
+                loader: "url-loader",
             }
         ]
     }
