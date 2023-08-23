@@ -1,15 +1,15 @@
 import React from "react"
 import SearchBar from "../SearchBar/SearchBar";
-import Logo from "../../images/logo.png"
 import Address from "../Address/Address";
 import Cart from "../Cart/Cart";
 import More from "../More/More";
 import Login from "../Login/Login";
+import Logo from "../Logo/Logo";
 
 const Header = () => {
     return (
         <div>
-            <img src={Logo}></img>
+            <Logo />
             <Address />
             <SearchBar />
             <More />
