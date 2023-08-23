@@ -4,7 +4,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 const Address = () => {
     return (
-        <Fab variant="extended">
+        <Fab variant="extended" size="small">
             <LocationOnIcon />
             Mangalore
         </Fab>

@@ -1,0 +1,12 @@
+.dropdown {
+flex: 1;
+}
+
+.searchText {
+flex: 5;
+color: white !important;
+}
+
+.search {
+flex: 1;
+}

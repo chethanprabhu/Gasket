@@ -1,9 +1,10 @@
 import { Button } from "@mui/material";
 import React from "react"
+import "./More.css"
 
 const More = () => {
     return (
-        <Button variant="text">More</Button>
+        <Button className="more" variant="text">More</Button>
     )
 }
 

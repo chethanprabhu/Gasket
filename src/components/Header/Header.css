@@ -1,0 +1,54 @@
+.headerWrapper {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(43, 43, 43);
+}
+
+.headerLogo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerAddress {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerSearch {
+    flex: 14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid gray;
+    border-radius: 20px;
+    background-color: rgb(131, 131, 131);
+}
+
+.headerMore {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerLogin {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerCart {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
