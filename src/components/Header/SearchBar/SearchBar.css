@@ -4,7 +4,7 @@ flex: 1;
 
 .searchText {
 flex: 5;
-color: white !important;
+color: rgb(86, 86, 86) !important;
 padding: 0 10px;
 }
 

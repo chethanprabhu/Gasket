@@ -27,9 +27,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 0.5px solid gray;
     border-radius: 20px;
-    background-color: rgb(131, 131, 131);
+    background-color: rgb(228, 228, 228);
 }
 
 .headerMore {
