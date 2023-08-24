@@ -5,8 +5,32 @@ flex: 1;
 .searchText {
 flex: 5;
 color: white !important;
+padding: 0 10px;
 }
 
 .search {
 flex: 1;
+
+}
+
+.search_icon {
+    background-color: rgb(102, 102, 102);
+    border-radius: 10px;
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.search_icon path{
+    background-color: white !important;
+}
+
+.select div, input{
+    color: white;
+}
+
+.category {
+    background-color: rgb(102, 102, 102);
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
