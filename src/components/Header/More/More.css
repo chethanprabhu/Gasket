@@ -1,3 +1,19 @@
 .more {
     color: white !important;
 }
+
+.menu ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu li {
+    padding: 20px 30px;
+    width: 150px;
+}
+
+.menu li:hover {
+    /* below I am reducing border by 5px because I am adding 5px left border */
+    padding: 20px 25px; 
+    border-left: 5px solid blue;
+}

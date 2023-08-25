@@ -1,16 +1,15 @@
 .dropdown {
-flex: 1;
+    flex: 1;
 }
 
 .searchText {
-flex: 5;
-color: rgb(86, 86, 86) !important;
-padding: 0 10px;
+    flex: 5;
+    color: rgb(86, 86, 86) !important;
+    padding: 0 10px;
 }
 
 .search {
-flex: 1;
-
+    flex: 1;
 }
 
 .search_icon {
